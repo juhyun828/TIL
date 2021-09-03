@@ -80,9 +80,9 @@ for 블록을 포함하는 메서드 내에서 선언된 변수와 같은 이름
 
 for 블록 내의 변수는 외부에서 호출이 불가능하다.
 
-![image-20210108215128177](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210108215128177.png)
+![image-20210108215128177](image/image-20210108215128177.png)
 
-![image-20210108215142516](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210108215142516.png)
+![image-20210108215142516](image/image-20210108215142516.png)
 
 ```java
 public class ForTest {

@@ -21,7 +21,7 @@
 - 자바는 예외도 객체로 처리한다.
 - 발생 가능성 있는 모든 예외 상황을 미리 예측하여 예외 클래스로 제공한다.
 
-![image-20210111214504129](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111214504129.png)
+![image-20210111214504129](image/image-20210111214504129.png)
 
 - 프로그램이 예외 처리 로직을 구현하지 않은 경우에는 **기본 예외 처리 핸들러**가, 에러 메시지를 화면에 출력하고 실행을 중지시킨다.
 
@@ -48,9 +48,9 @@ public class ExeptionHandlerTest {
 - `RuntimeException`의 자식 클래스들은, 예외 처리를 포함하지 않아 컴파일 되는 예외 클래스
   - 실행 시에 발새하는 컴파일러가 컴파일을 해준다.
 
-![image-20210111215625848](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111215625848.png)
+![image-20210111215625848](image/image-20210111215625848.png)
 
-![image-20210111220121241](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111220121241.png)
+![image-20210111220121241](image/image-20210111220121241.png)
 
 
 
@@ -95,7 +95,7 @@ try {
 
 ### 상속을 이용한 예외 처리
 
-![image-20210111222938911](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111222938911.png)
+![image-20210111222938911](image/image-20210111222938911.png)
 
 
 
@@ -196,7 +196,7 @@ public class ThrowTest {
 //	program end...
 ```
 
-![image-20210111233444452](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111233444452.png)
+![image-20210111233444452](image/image-20210111233444452.png)
 
 ```java
 // throws를 통한 예외 처리

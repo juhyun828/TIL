@@ -4,9 +4,9 @@
 
 ## 상속 (Inheritance)
 
-![image-20210109213817430](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210109213817430.png)
+![image-20210109213817430](image/image-20210109213817430.png)
 
-![image-20210109214006955](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210109214006955.png)
+![image-20210109214006955](image/image-20210109214006955.png)
 
 
 
@@ -204,7 +204,7 @@ public class EmployeeTest {
 - 자식 클래스가 부모 클래스의 메서드를 재정의히여 사용
   - 이때 메서드 이름, 매개 변수와 유형과 개수가 동일해야 함
 
-![image-20210109224743987](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210109224743987.png)
+![image-20210109224743987](image/image-20210109224743987.png)
 
 
 

@@ -107,7 +107,7 @@ public class Employee {
 - 생성된 객체에 대한 참조 값 (일종의 메모리 주소)이 선언된 객체 참조 변수에 할당
 - `Car Yellow = new Car();`
 
-![image-20210103175848575](C:\Users\j828h\Desktop\TIL\images\image-20210103175848575.png)
+![image-20210103175848575](image/image-20210103175848575.png)
 
 ```java
 class Car {

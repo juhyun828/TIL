@@ -4,21 +4,21 @@
 
 ### 추상 클래스와 인터페이스
 
-![image-20210110233721396](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210110233721396.png)
+![image-20210110233721396](image/image-20210110233721396.png)
 
-![image-20210110233755145](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210110233755145.png)
+![image-20210110233755145](image/image-20210110233755145.png)
 
 인터페이스는 상수와 추상 메서드 외에 다른 멤버를 갖지 못하게 한다.
 
 
 
-![image-20210110233850921](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210110233850921.png)
+![image-20210110233850921](image/image-20210110233850921.png)
 
 ### 인터페이스를 사용하는 이유
 
-![image-20210110233953953](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210110233953953.png)
+![image-20210110233953953](image/image-20210110233953953.png)
 
-![image-20210110234013994](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210110234013994.png)
+![image-20210110234013994](image/image-20210110234013994.png)
 
 
 
@@ -38,9 +38,9 @@ public interface 인터페이스명 [extends 부모인터페이스며, ...] {
 
 ## 2. 인터페이스의 활용
 
-![image-20210110234927195](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210110234927195.png)
+![image-20210110234927195](image/image-20210110234927195.png)
 
-![image-20210110235031524](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210110235031524.png)
+![image-20210110235031524](image/image-20210110235031524.png)
 
 ```java
 interface Drawable {
@@ -125,7 +125,7 @@ public class InterfaceTest1 {
 
 ### 형변환
 
-![image-20210111001937313](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111001937313.png)
+![image-20210111001937313](image/image-20210111001937313.png)
 
 ```java
 public class InterfaceTest1 {
@@ -150,7 +150,7 @@ public class InterfaceTest1 {
 
 인터페이스도 extends 예약어로 상속 가능
 
-![image-20210111002700825](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111002700825.png)
+![image-20210111002700825](image/image-20210111002700825.png)
 
 ```java
 interface Paintable {
@@ -225,75 +225,75 @@ public class InterfaceTest2 {
 
 ### 자바 API 패키지
 
-![image-20210111003550119](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111003550119.png)
+![image-20210111003550119](image/image-20210111003550119.png)
 
 
 
-![image-20210111003636020](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111003636020.png)
+![image-20210111003636020](image/image-20210111003636020.png)
 
 
 
 ### `import` 예약어
 
-![image-20210111003856031](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111003856031.png)
+![image-20210111003856031](image/image-20210111003856031.png)
 
 
 
 #### 다른 패키지의 클래스 사용하기
 
-![image-20210111004103806](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111004103806.png)
+![image-20210111004103806](image/image-20210111004103806.png)
 
-![image-20210111004114281](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111004114281.png)
+![image-20210111004114281](image/image-20210111004114281.png)
 
-![image-20210111004153465](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111004153465.png)
+![image-20210111004153465](image/image-20210111004153465.png)
 
-![image-20210111004208425](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111004208425.png)
+![image-20210111004208425](image/image-20210111004208425.png)
 
 
 
 #### 여러 패키지에 동일한 이름의 클래스를 import 하는 경우
 
-![image-20210111004240337](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111004240337.png)
+![image-20210111004240337](image/image-20210111004240337.png)
 
 
 
-![image-20210111004319552](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111004319552.png)
+![image-20210111004319552](image/image-20210111004319552.png)
 
-![image-20210111004332922](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111004332922.png)
+![image-20210111004332922](image/image-20210111004332922.png)
 
 ### 2. 사용자 정의 패키지
 
 #### package의 개념
-![](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111004507900.png)
-![](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111004522419.png)
+![](image/image-20210111004507900.png)
+![](image/image-20210111004522419.png)
 
-![image-20210111004631176](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111004631176.png)
+![image-20210111004631176](image/image-20210111004631176.png)
 
 
 
 #### package 예약어
 
-![image-20210111004657752](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111004657752.png)
+![image-20210111004657752](image/image-20210111004657752.png)
 
-![image-20210111004737339](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111004737339.png)
+![image-20210111004737339](image/image-20210111004737339.png)
 
-![image-20210111004754728](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111004754728.png)
+![image-20210111004754728](image/image-20210111004754728.png)
 
-![image-20210111004810968](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111004810968.png)
+![image-20210111004810968](image/image-20210111004810968.png)
 
-![image-20210111005300747](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111005300747.png)
+![image-20210111005300747](image/image-20210111005300747.png)
 
 
 
 #### 사용자 정의 패키지와 `import`
 
-![image-20210111005347920](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111005347920.png)
+![image-20210111005347920](image/image-20210111005347920.png)
 
 
 
-![image-20210111005414273](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111005414273.png)
+![image-20210111005414273](image/image-20210111005414273.png)
 
-![image-20210111005422621](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111005422621.png)
+![image-20210111005422621](image/image-20210111005422621.png)
 
 ## 2. 커스텀 라이브러리 사용
 
@@ -301,36 +301,36 @@ public class InterfaceTest2 {
 
 자바는 프로그램 구현에 필요한 중요 클래스들을 API 형태로 JVM에 포함
 
-![image-20210111005514489](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111005514489.png)
+![image-20210111005514489](image/image-20210111005514489.png)
 
-![image-20210111005536971](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111005536971.png)
+![image-20210111005536971](image/image-20210111005536971.png)
 
-![image-20210111005603256](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111005603256.png)
+![image-20210111005603256](image/image-20210111005603256.png)
 
-![image-20210111005624431](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111005624431.png)
+![image-20210111005624431](image/image-20210111005624431.png)
 
-![image-20210111005639780](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111005639780.png)
+![image-20210111005639780](image/image-20210111005639780.png)
 
-![image-20210111005717344](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111005717344.png)
+![image-20210111005717344](image/image-20210111005717344.png)
 
-![image-20210111005919378](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111005919378.png)
+![image-20210111005919378](image/image-20210111005919378.png)
 
-![image-20210111005940660](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111005940660.png)
+![image-20210111005940660](image/image-20210111005940660.png)
 
 
 
 ### 3. 커스텀 라이브러리 사용
 
-![image-20210111010008870](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111010008870.png)
+![image-20210111010008870](image/image-20210111010008870.png)
 
-![image-20210111010020810](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111010020810.png)
+![image-20210111010020810](image/image-20210111010020810.png)
 
-![image-20210111010042960](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111010042960.png)
+![image-20210111010042960](image/image-20210111010042960.png)
 
-![image-20210111010054058](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111010054058.png)
+![image-20210111010054058](image/image-20210111010054058.png)
 
-![image-20210111010102027](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111010102027.png)
+![image-20210111010102027](image/image-20210111010102027.png)
 
-![image-20210111010113400](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111010113400.png)
+![image-20210111010113400](image/image-20210111010113400.png)
 
-![image-20210111010123388](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210111010123388.png)
+![image-20210111010123388](image/image-20210111010123388.png)

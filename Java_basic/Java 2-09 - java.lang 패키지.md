@@ -4,7 +4,7 @@
 
 가장 기본이 되는 필수 클래스와 인터페이스들이 포함된 패키지며 import 없이 사용 가능하다.
 
-![image-20210114095333214](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210114095333214.png)
+![image-20210114095333214](image/image-20210114095333214.png)
 
 ## 2. Object 클래스
 
@@ -12,9 +12,9 @@
 - 자바 API에 정의된 모든 클래스의 최상위 클래스며, Object 클래스들의 상속은 소스 상에 명시하지 않아도 자동으로 이루어짐
   - 자바의 모든 클래스는 부모인 Object 클래스의 모든 변수와 메소드를 상속받아 사용 가능하다.
 
-![image-20210114095646927](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210114095646927.png)
+![image-20210114095646927](image/image-20210114095646927.png)
 
-![image-20210114095745917](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210114095745917.png)
+![image-20210114095745917](image/image-20210114095745917.png)
 
 ### `equals()` 메서드
 
@@ -24,12 +24,12 @@
    2. 참조형 : 객체의 내용을 비교하는 것이 아니라 주소 값이 같은지 여부를 비교함
       - 메모리의 다른 위치에 생성된 객체의 주소 값이 객체 참조 변수에 저장되기 때문
 
-   ![image-20210114100308282](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210114100308282.png)
+   ![image-20210114100308282](image/image-20210114100308282.png)
 
    2. `equals() `메서드는 비교 대상이 되는 두 개의 주소 값을 비교하는 것이 아니라 객체의 내용을 비교함
       - 그러나 `equals()` 메서드는 객체의 주소 값을 비교하는 `==` 연산자와 동일하게 동작함
 
-![image-20210114100506791](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210114100506791.png)
+![image-20210114100506791](image/image-20210114100506791.png)
 
 ```java
 class Car {
@@ -78,9 +78,9 @@ public class EqualsTest {
 - 적절하게 Overriding 하여 사용한다.
 - System.out.print() 메서드 호출 시 자동으로 호출되기 때문에 생략 가능함
 
-![image-20210114104633888](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210114104633888.png)
+![image-20210114104633888](image/image-20210114104633888.png)
 
-![image-20210114104743015](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210114104743015.png)
+![image-20210114104743015](image/image-20210114104743015.png)
 
 ### equals(), toString() 자동 생성
 
@@ -101,13 +101,13 @@ public class EqualsTest {
   -  사용자의 문자열 입력을 다양한 기본 데88이터 타입으로 변환하는 편리한 메서드들을 제공한다.
   - Wrapper 클래스 객체는 한 번 생성되면 **그 값이 변할 수 없다.**
 
-![image-20210114105147648](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210114105147648.png)
+![image-20210114105147648](image/image-20210114105147648.png)
 
-![image-20210114105333448](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210114105333448.png)
+![image-20210114105333448](image/image-20210114105333448.png)
 
-![image-20210114105726393](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210114105726393.png)
+![image-20210114105726393](image/image-20210114105726393.png)
 
-![image-20210114105740513](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210114105740513.png)
+![image-20210114105740513](image/image-20210114105740513.png)
 
 # 2. 객체지향 언어의 주요 개념
 
@@ -115,19 +115,19 @@ public class EqualsTest {
 
 - String 객체는 여러 개의 문자들로 이루어진 문자 배열 형태가 생성되고 인덱스는 0부터 시작함
 
-![image-20210114105929329](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210114105929329.png)
+![image-20210114105929329](image/image-20210114105929329.png)
 
-![image-20210114105956383](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210114105956383.png)
+![image-20210114105956383](image/image-20210114105956383.png)
 
-![image-20210115084601046](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210115084601046.png)
+![image-20210115084601046](image/image-20210115084601046.png)
 
-![image-20210115084628512](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210115084628512.png)
+![image-20210115084628512](image/image-20210115084628512.png)
 
-![image-20210115084725898](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210115084725898.png)
+![image-20210115084725898](image/image-20210115084725898.png)
 
-![image-20210115084801939](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210115084801939.png)
+![image-20210115084801939](image/image-20210115084801939.png)
 
-![image-20210115084820494](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210115084820494.png)
+![image-20210115084820494](image/image-20210115084820494.png)
 
 
 
@@ -135,7 +135,7 @@ public class EqualsTest {
 
 - String 객체는 한 번 생성되면 문자열 내용이 변경되지 않는다.
 - String 클래스가 제공하는 모든 메서드는 실행 결과를 또 다른 문자열 객체로 리턴한다.
-- ![image-20210115085511749](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210115085511749.png)
+- ![image-20210115085511749](image/image-20210115085511749.png)
 - String 클래스는 두 가지 형태의 객체 생성 방법을 제공합니다.
 
 ```java
@@ -155,16 +155,16 @@ scoreList[2] = 70;
 int scoreList = {50, 90, 70};
 ```
 
-![image-20210115090447550](images/image-20210115090447550.png)
+![image-20210115090447550](image/image-20210115090447550.png)
 
-![image-20210115090502319](images/image-20210115090502319.png)
+![image-20210115090502319](image/image-20210115090502319.png)
 
-![image-20210115090526276](images/image-20210115090526276.png)
+![image-20210115090526276](image/image-20210115090526276.png)
 
-![image-20210115090738586](images/image-20210115090738586.png)
+![image-20210115090738586](image/image-20210115090738586.png)
 
-![image-20210115090807325](images/image-20210115090807325.png)
+![image-20210115090807325](image/image-20210115090807325.png)
 
-![image-20210115090845257](images/image-20210115090845257.png)
+![image-20210115090845257](image/image-20210115090845257.png)
 
 ## 2. StringBuffer 클래스

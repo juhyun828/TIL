@@ -14,14 +14,14 @@
 
 대소 비교, 객체의 타입 비교 결과를 true/false boolaen 타입으로 리턴한다.
 
-![image-20210106215759006](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210106215759006.png)
+![image-20210106215759006](image/image-20210106215759006.png)
 
 
 
 ## 3. 논리 연산자
 
 - and (`&`), or (`|`), not (`!`)
-- ![image-20210106215929076](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210106215929076.png)
+- ![image-20210106215929076](image/image-20210106215929076.png)
 
 ```javapublic class LogicalOpTest {
 public class LogicalOpTest {
@@ -51,7 +51,7 @@ public class LogicalOpTest {
 
 - 값을 bit 단위로 연산
 
-![image-20210106222546239](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210106222546239.png)
+![image-20210106222546239](image/image-20210106222546239.png)
 
 ## 5. 기타 연산자 및 연산자 우선순위
 
@@ -67,7 +67,7 @@ public class LogicalOpTest {
 
 ### 3. 연산자 우선순위
 
-![image-20210107211921401](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210107211921401.png)
+![image-20210107211921401](image/image-20210107211921401.png)
 
 
 
@@ -83,7 +83,7 @@ greeting = new String("Hello, Java!"); // greeting 변수에 값 할당
 // String 객체를 생성하고, 객체의 시작 주소가 변수에 저장된다.
 ```
 
-![image-20210107213247439](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210107213247439.png)
+![image-20210107213247439](image/image-20210107213247439.png)
 
 ### 일차원 배열의 선언과 사용
 
@@ -157,7 +157,7 @@ scoreList[1] = new int[4];
 scoreList[2] = new int[4];
 ```
 
-![image-20210107220007842](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210107220007842.png)
+![image-20210107220007842](image/image-20210107220007842.png)
 
 ```java
 // 서로 다른 길이로 생성된 이차원 배열도 가능
@@ -168,7 +168,7 @@ scoreList[1] = new int[3];
 scoreList[2] = new int[4];
 ```
 
-![image-20210107220300446](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210107220300446.png)
+![image-20210107220300446](image/image-20210107220300446.png)
 
 ```java
 public class TwoDArrayTest2 {
@@ -242,4 +242,4 @@ java CommandLineArgTest 10 20
 
 Run -> Run Configurations -> Arguments 탭 이동
 
-![image-20210108001422053](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210108001422053.png)
+![image-20210108001422053](image/image-20210108001422053.png)

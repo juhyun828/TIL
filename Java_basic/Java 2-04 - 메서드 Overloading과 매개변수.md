@@ -7,7 +7,7 @@
 - 변수와 달리 하나의 클래스에 동일한 이름의 메서드는 여러 개 정의할 수 있음
 - 데이터 타입이 달라도 변수 이름이 동일한 경우를 허용하지 않음
 
-![image-20210109164627554](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210109164627554.png)
+![image-20210109164627554](image/image-20210109164627554.png)
 
 ### 메서드의 중복 정의 (Overloading)
 
@@ -19,7 +19,7 @@
 
 ### PrintStream 클래스의 메서드 Overloading
 
-![image-20210109165434835](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210109165434835.png)
+![image-20210109165434835](image/image-20210109165434835.png)
 
 ### 메서드 Overloading 유형
 
@@ -30,7 +30,7 @@
 5. 매개변수가 형변환된 다른 타입인 경우
    - int는 double로 묵시적 형변환이 가능하다.
 
-![image-20210109165826094](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210109165826094.png)
+![image-20210109165826094](image/image-20210109165826094.png)
 
 ## 생성자 Overloading
 
@@ -81,9 +81,9 @@ class EmployeeTest {
 
 
 
-![image-20210109170335652](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210109170335652.png)
+![image-20210109170335652](image/image-20210109170335652.png)
 
-![image-20210109170351978](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210109170351978.png)
+![image-20210109170351978](image/image-20210109170351978.png)
 
 
 
@@ -150,7 +150,7 @@ int copyScore = score; // score 변수에 저장된 값을 copyScore 변수에 �
 // - 특정 변수의 값을 수정해도 다른 변수에는 영향을 미치지 않음
 ```
 
-![image-20210109201617811](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210109201617811.png)
+![image-20210109201617811](image/image-20210109201617811.png)
 
 
 
@@ -166,7 +166,7 @@ int[] copyList = list; // copyList 변수에 list 변수에 저장된 주소 값
 // - 특정 변수로 배열의 값을 수정하면, 동일한 객체를 참조하는 다른 변수도 수정된 값을 인식한다.
 ```
 
-![image-20210109202047227](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210109202047227.png)
+![image-20210109202047227](image/image-20210109202047227.png)
 
 
 
@@ -174,7 +174,7 @@ int[] copyList = list; // copyList 변수에 list 변수에 저장된 주소 값
 
 매개 변수의 타입이 기본 데이터 타입인 경우
 
-![image-20210109202357323](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210109202357323.png)
+![image-20210109202357323](image/image-20210109202357323.png)
 
 
 
@@ -239,7 +239,7 @@ public class CallByReferenceTest {
 
 ```
 
-![image-20210109205712540](C:\Users\j828h\Desktop\TIL\Java_basic\images\image-20210109205712540.png)
+![image-20210109205712540](image/image-20210109205712540.png)
 
 
 

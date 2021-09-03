@@ -356,7 +356,7 @@ Manager m1 = new Manager();
 // m1 참조 변수는 타입이 Manager이고, Manager 객체를 참조함
 ```
 
-![image-20210104202928583](C:\Users\j828h\Desktop\TIL\images\image-20210104202928583.png)
+![image-20210104202928583](image/image-20210104202928583.png)
 
 - 타입과 생성된 객체가 모두 Manager임
   - Manager 객체의 멤버 필드와 메서드 모두 접근이 가능함 (**묵시적 형변환**)
@@ -371,7 +371,7 @@ Employee e2 = new Manager();
 // e2 참조 변수는 타입이 Employee이고, Manager 객체를 참조함
 ```
 
-![image-20210104203407551](C:\Users\j828h\Desktop\TIL\images\image-20210104203407551.png)
+![image-20210104203407551](image/image-20210104203407551.png)
 
 - Manager는 Employee를 생성하기 때문에, Employee 객체가 가진 변수와 메서드 모두를 가지고 있는 객체다.
 - 생성된 객체는 Manager이지만 참조 변수의 타입이 Employee => **접근 가능한 변수와 메소드는 Employee 객체로 제한됨**
@@ -382,7 +382,7 @@ Employee e2 = new Manager();
 Manager m2 = (Manager)e2;
 // m2 참조 변수는 타입이 Manager이고, Manager 객체를 참조함
 ```
-![image-20210104203719424](C:\Users\j828h\Desktop\TIL\images\image-20210104203719424.png)
+![image-20210104203719424](image/image-20210104203719424.png)
 
 - Employee 형의 e2 참조 변수를 Manager 형으로 명시적 형변환을 하고 있음
   - m2는 Manager 타입이므로 e2가 참조하고 있던 Manager 객체의 모든 멤버 필드와 메서드에 접근이 가능함
