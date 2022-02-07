@@ -26,30 +26,39 @@ public class CustomerAddressDTO {
 
 ## Inner Join
 ```java
-List<CustomerDTO> customerDTOS = customers.stream()
-        .map( customer -> {
+public static List<CustomerDTO> leftJoin(List<Customer> customers,
+                                            List<Address> addresses) {
 
-            CustomerDTO customerDTO = new CustomerDTO();
-            customerDTO.setCid( customer.getCid() );
-            customerDTO.setName( customer.getName() );
+    Map<Integer, Address> aidAddress = addresses.stream()
+            .collect(Collectors.toMap( a -> a.getAid(), a -> a ));
 
-            if ( aidAddress.containsKey( customer.getAid() ) ) {
+//        Map<Integer, Address> aidAddress2 = addresses.stream()
+//                .collect(Collectors.toMap( Address::getAid, Function.identity() ));
 
-                Address address = aidAddress.get( customer.getAid() );
+    List<CustomerDTO> customerDTOS = customers.stream()
+            .map( customer -> {
 
-                AddressDTO addressDTO = new AddressDTO();
-                addressDTO.setAid( address.getAid() );
-                addressDTO.setCity( address.getCity() );
-                addressDTO.setState( address.getState() );
+                CustomerDTO customerDTO = new CustomerDTO();
+                customerDTO.setCid( customer.getCid() );
+                customerDTO.setName( customer.getName() );
 
-                customerDTO.setAddress( addressDTO );
+                if ( aidAddress.containsKey( customer.getAid() ) ) {
 
-            }
+                    Address address = aidAddress.get( customer.getAid() );
 
-            return customerDTO;
+                    AddressDTO addressDTO = new AddressDTO();
+                    addressDTO.setAid( address.getAid() );
+                    addressDTO.setCity( address.getCity() );
+                    addressDTO.setState( address.getState() );
 
-        } )
-        .collect(Collectors.toList());
+                    customerDTO.setAddress( addressDTO );
+
+                }
+
+                return customerDTO;
+
+            } )
+            .collect(Collectors.toList());
 
     return customerDTOS;
 }
